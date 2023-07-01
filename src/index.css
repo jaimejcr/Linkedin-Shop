@@ -1,0 +1,41 @@
+* {
+  marggin: 0px;
+  padding: 0px;
+
+}
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: rgb(213, 229, 249);
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  background: #4dA799;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px 25px;
+  position: relative;
+  font-family: "poppins", sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.rating {
+  display: flex;
+  gap: 20px;
+}
+.icon {
+  background: url(../public/assets/star-regular.svg);
+}
+.icon-solid {
+  background: url(../public/assets/star-solid.svg);
+}
